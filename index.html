@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasteguard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <div id="sidebar">
+        <h1>⍓ mhguard</h1>
+        <input type="text" id="search-input" placeholder="search services...">
+        <div id="stats">
+            <h2 class = "breakdown">Service Breakdown:</h2>
+            <p>Brooklyn: <span id="brooklyn-count">0</span></p>
+            <p>Manhattan: <span id="manhattan-count">0</span></p>
+            <p>Queens: <span id="queens-count">0</span></p>
+            <p>Bronx: <span id="bronx-count">0</span></p>
+            <p>Staten Island: <span id="staten-count">0</span></p>
+        </div>
+    </div>
+    <div id="map"></div>
+    
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
